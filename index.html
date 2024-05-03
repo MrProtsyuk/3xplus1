@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3xplus1</title>
+    <script src="/index.js"></script>
   </head>
   <body>
     <div class="header">
@@ -35,12 +36,13 @@
         Do you think you can solve it? <br />
         Type any postive integer down below ⬇️
       </h2>
-      <form>
-        <input type="number" id="user_input" />
+      <form id="user_input">
+        <input type="number" />
         <button type="button"></button>
       </form>
       <div>
         <p id="num_array"></p>
+        <p id="user_message"></p>
       </div>
     </div>
   </body>
